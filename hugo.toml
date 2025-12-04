@@ -1,0 +1,10 @@
+baseURL = "https://drmoron-escape-room-casino.netlify.app/"
+languageCode = "en-us"
+title = "Lucky Strike Casino Operations"
+theme = "accessible-minimalism"
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+
+# Allow raw html
+[markup.goldmark.renderer]
+  unsafe= true
