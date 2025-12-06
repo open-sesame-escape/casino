@@ -13,7 +13,7 @@
       Finance
     </div>
   </a>
-  <a href="/security" style="text-decoration: none">
+  <a href="/security{{ if .Site.Params.timelock }}-tl{{ end }}" style="text-decoration: none">
     <div style="text-align: center; display: inline-block;">
       <img src="/images/icon-security.svg" width="250px" height="250px" />
       <br/>

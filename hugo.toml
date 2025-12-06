@@ -8,3 +8,7 @@ enableRobotsTXT = true
 # Allow raw html
 [markup.goldmark.renderer]
   unsafe= true
+
+[params]
+  # Uncomment to enable timelock page.
+  #timelock = true
