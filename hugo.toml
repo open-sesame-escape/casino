@@ -1,4 +1,4 @@
-baseURL = "https://drmoron-escape-room-casino.netlify.app/"
+#baseURL = "https://drmoron-escape-room-casino.netlify.app/"
 languageCode = "en-us"
 title = "Lucky Strike Casino Operations"
 theme = "accessible-minimalism"
