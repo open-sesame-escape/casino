@@ -1,12 +1,12 @@
 {{ define "main" }}
 
 <p>
-  <a href="/email/" class="buttonlink">&larr; Inbox</a>
+  <a href="{{ .Site.BaseURL }}email/" class="buttonlink">&larr; Inbox</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   {{ with .Param "forwardlink" }}
     <a href="{{ . }}" class="buttonlink">Forward</a>
   {{ else }}
-    <a href="/forwarding/noforward" class="buttonlink">Forward</a>
+    <a href="{{ .Site.BaseURL }}forwarding/noforward" class="buttonlink">Forward</a>
   {{ end }}
 </p>
 

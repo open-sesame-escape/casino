@@ -10,7 +10,7 @@ draft: false
 | Destination | Pierre Voleur<br/>915 Mansion Ln<br/>Richo, NV 89542 |
 
 <p>
-{{% buttonlink "/shipping/reroute" %}}
+{{% buttonlink "../reroute" %}}
 Reroute
 {{% /buttonlink %}}
 </p>

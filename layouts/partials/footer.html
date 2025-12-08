@@ -1,21 +1,21 @@
 <p>
-  <a href="/email" style="text-decoration: none">
+  <a href="{{ .Site.BaseURL }}email" style="text-decoration: none">
     <div style="text-align: center; display: inline-block;">
-      <img src="/images/icon-email.svg" width="250px" height="250px" />
+      <img src="{{ .Site.BaseURL }}images/icon-email.svg" width="250px" height="250px" />
       <br/>
       Email
     </div>
   </a>
-  <a href="/finance" style="text-decoration: none">
+  <a href="{{ .Site.BaseURL }}finance" style="text-decoration: none">
     <div style="text-align: center; display: inline-block;">
-      <img src="/images/icon-finance.svg" width="250px" height="250px" />
+      <img src="{{ .Site.BaseURL }}images/icon-finance.svg" width="250px" height="250px" />
       <br/>
       Finance
     </div>
   </a>
-  <a href="/security{{ if .Site.Params.timelock }}-tl{{ end }}" style="text-decoration: none">
+  <a href="{{ .Site.BaseURL }}security{{ if .Site.Params.timelock }}-tl{{ end }}" style="text-decoration: none">
     <div style="text-align: center; display: inline-block;">
-      <img src="/images/icon-security.svg" width="250px" height="250px" />
+      <img src="{{ .Site.BaseURL }}images/icon-security.svg" width="250px" height="250px" />
       <br/>
       Security
     </div>
@@ -23,23 +23,23 @@
 </p>
 
 <p>
-  <a href="/music" style="text-decoration: none">
+  <a href="{{ .Site.BaseURL }}music" style="text-decoration: none">
     <div style="text-align: center; display: inline-block;">
-      <img src="/images/icon-music.svg" width="250px" height="250px" />
+      <img src="{{ .Site.BaseURL }}images/icon-music.svg" width="250px" height="250px" />
       <br/>
       Music
     </div>
   </a>
-  <a href="/shipping" style="text-decoration: none">
+  <a href="{{ .Site.BaseURL }}shipping" style="text-decoration: none">
     <div style="text-align: center; display: inline-block;">
-      <img src="/images/icon-shipping.svg" width="250px" height="250px" />
+      <img src="{{ .Site.BaseURL }}images/icon-shipping.svg" width="250px" height="250px" />
       <br/>
       Shipping
     </div>
   </a>
-  <a href="/cameras" style="text-decoration: none">
+  <a href="{{ .Site.BaseURL }}cameras" style="text-decoration: none">
     <div style="text-align: center; display: inline-block;">
-      <img src="/images/icon-cameras.svg" width="250px" height="250px" />
+      <img src="{{ .Site.BaseURL }}images/icon-cameras.svg" width="250px" height="250px" />
       <br/>
       Cameras
     </div>

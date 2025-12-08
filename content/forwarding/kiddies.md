@@ -8,7 +8,7 @@ from: "Tony S. <tony@luckystrikecasino.cm>"
 {{< forward-form
     subject="Save the Kiddies"
 	match="[Dd]t[.]?[Mm]arlowe@rpd.go?v"
-	destination="/kiddies-response"
+	destination="../../kiddies-response"
 >}}
 
 FYI

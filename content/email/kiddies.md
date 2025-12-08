@@ -4,7 +4,7 @@ weight: 35
 draft: false
 subject: "Save the Kiddies"
 from: "Tony S. <tony@luckystrikecasino.cm>"
-forwardlink: "/forwarding/kiddies"
+forwardlink: "../../forwarding/kiddies"
 ---
 
 Big D!
